@@ -1800,7 +1800,7 @@
     "m_Title": "Diffuse Lighting",
     "m_Position": {
         "x": -1024.0,
-        "y": 1119.0
+        "y": 1119.5
     }
 }
 
@@ -2020,7 +2020,7 @@
     "m_Group": {
         "m_Id": "3bb397412a8340fbac6a1dc7e824f6a9"
     },
-    "m_Name": "Get Main Light Vector Space Lighting",
+    "m_Name": "GetMainLightVectorSpaceLighting",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
