@@ -1890,8 +1890,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.22793111
-        value: 0.07272685
+        time: 0.29885396
+        value: 0.032725938
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
   m_densityFalloff: 9
   m_material: {fileID: 2100000, guid: 6cf11a7ca51935a4fba63dbcd1cdfacb, type: 2}
   m_renderPassEvent: 450
-  m_color: {r: 0, g: 0.178377, b: 2.089559, a: 1}
+  m_color: {r: 0.19738622, g: 0.42811796, b: 2.7897255, a: 1}
 --- !u!1001 &1842635613
 PrefabInstance:
   m_ObjectHideFlags: 0
