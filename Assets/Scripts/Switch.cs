@@ -19,7 +19,7 @@ public class Switch : MonoBehaviour
     {
         CameraController.target = target;  //set the target of the camera to the target of this object
         Camera.main.fieldOfView =20; //set the field of view of the camera to 20
-        Debug.Log("You clicked " + target.name); //log the name of the target object to the console
+        
        
     }
 }
