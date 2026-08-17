@@ -9,10 +9,10 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        if(target == null)  //if the target is not set, set it to the main camera
+        if(target == null)  
         {
-            target = this.gameObject;  //set the target to the main camera 
-            Debug.Log("Target is not set, setting it to the main camera");  //log a message to the console
+            target = this.gameObject;  
+            Debug.Log("Target is not set, setting it to the main camera");  
         }
     }
 
