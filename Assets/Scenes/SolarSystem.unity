@@ -5239,7 +5239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planetName: Moon
-  description: 
+  description: "The Moon is Earth\u2019s only natural satellite. It reflects sunlight,
+    orbits Earth about once every 27.3 days, and influences ocean tides. Its surface
+    has craters, mountains, and large rocky plains.\n"
 --- !u!1001 &2739780374064691829
 PrefabInstance:
   m_ObjectHideFlags: 0
