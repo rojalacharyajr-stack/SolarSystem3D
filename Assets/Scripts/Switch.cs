@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class Switch : MonoBehaviour
 {
+    public GameObject target;
 
-    public GameObject target;  
-        if(target==null)  
+    private void Start()
+    {
+        if (target == null)
         {
-            target =this.gameObject;  
-            Debug.Log("Target is not set, setting it to this object");  
+            target = this.gameObject;
+            Debug.Log("Target is not set, setting it to this object");
         }
     }
 
-     private void OnMouseDown()  // c
+    private void OnMouseDown()
     {
-        CameraController.target = target;  
-        Camera.main.fieldOfView =20; 
-        
-       
+        CameraController.target = target;
+        Camera.main.fieldOfView = 20;
     }
 }
